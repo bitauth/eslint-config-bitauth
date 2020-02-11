@@ -14,8 +14,19 @@
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "eslint-config-prettier": "^6.10.0"
   },
+  "scripts": {
+    "release": "standard-version"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
-  ]
+  ],
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }

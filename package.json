@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-bitauth",
+  "version": "1.0.0",
+  "description": "eslint configuration for bitauth projects",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=6",
+    "eslint-plugin-eslint-comments": ">=3.1",
+    "eslint-plugin-functional": ">=3",
+    "eslint-plugin-import": ">=2.20"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "eslint-config-prettier": "^6.10.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
+}

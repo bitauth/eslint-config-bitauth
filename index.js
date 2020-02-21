@@ -33,7 +33,7 @@ module.exports = {
         ignoreNumericLiteralTypes: true,
         ignoreEnums: true,
         ignoreArrayIndexes: true,
-        ignore: [0, 1]
+        ignore: [-1, 0, 1]
       }
     ],
     '@typescript-eslint/restrict-template-expressions': [

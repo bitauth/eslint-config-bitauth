@@ -21,6 +21,7 @@ module.exports = {
     complexity: ['error', 5],
     'max-statements': 'off',
     'max-lines-per-function': 'off',
+    '@typescript-eslint/ban-ts-ignore': 'off', // deprecated in favor of @typescript-eslint/ban-ts-comment
     '@typescript-eslint/no-type-alias': 'off',
     'line-comment-position': ['error', { ignorePattern: 'cspell' }],
     'no-inline-comments': 'off',

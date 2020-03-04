@@ -5,13 +5,16 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
+    "@typescript-eslint/parser": ">=2.22",
     "eslint": ">=6",
     "eslint-plugin-eslint-comments": ">=3.1",
     "eslint-plugin-functional": ">=3",
-    "eslint-plugin-import": ">=2.20"
+    "eslint-plugin-import": ">=2.20",
+    "eslint-plugin-tsdoc": ">=0.2.3",
+    "typescript": ">=3.8"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/eslint-plugin": "2.22",
     "eslint-config-prettier": "^6.10.0"
   },
   "scripts": {

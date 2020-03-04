@@ -3,7 +3,7 @@ module.exports = {
     '@typescript-eslint',
     'import',
     'eslint-comments',
-    // 'eslint-plugin-tsdoc', // TODO: waiting on https://github.com/microsoft/tsdoc/issues/128
+    'eslint-plugin-tsdoc',
     'functional'
   ],
   extends: [
@@ -16,13 +16,13 @@ module.exports = {
   ],
   rules: {
     'max-lines': ['error', 1000],
-    'max-params': ['error', 4],
-    'max-params': 'off',
+    'max-params': ['error', 3],
     complexity: ['error', 5],
     'max-statements': 'off',
     'max-lines-per-function': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off', // deprecated in favor of @typescript-eslint/ban-ts-comment
     '@typescript-eslint/no-type-alias': 'off',
+    'tsdoc/syntax': 'warn',
     'line-comment-position': ['error', { ignorePattern: 'cspell' }],
     'no-inline-comments': 'off',
     'capitalized-comments': 'off',
@@ -98,7 +98,7 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'functional/prefer-readonly-type': 'off', // TODO: waiting on https://github.com/typescript-eslint/typescript-eslint/pull/1513
+    'functional/prefer-readonly-type': 'off', // disabled in favor of @typescript-eslint/prefer-readonly-parameter-types
     'functional/prefer-type-literal': 'off',
     'one-var': 'off',
     '@typescript-eslint/typedef': 'off',

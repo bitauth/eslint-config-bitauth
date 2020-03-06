@@ -74,6 +74,7 @@ module.exports = {
     'import/no-named-default': 'error',
     'import/no-named-export': 'off',
     'import/no-self-import': 'error',
+    'import/no-useless-path-segments': 'error',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/order': [
       'error',

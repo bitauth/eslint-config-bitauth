@@ -9,6 +9,7 @@ module.exports = {
   extends: [
     'eslint:all',
     'plugin:@typescript-eslint/all',
+    'plugin:import/typescript',
     'plugin:functional/external-recommended',
     'plugin:functional/all',
     'prettier',

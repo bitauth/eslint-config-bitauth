@@ -1,11 +1,5 @@
 module.exports = {
-  plugins: [
-    '@typescript-eslint',
-    'import',
-    'eslint-comments',
-    'eslint-plugin-tsdoc',
-    'functional'
-  ],
+  plugins: ['import', 'eslint-comments', 'eslint-plugin-tsdoc', 'functional'],
   extends: [
     'eslint:all',
     'plugin:@typescript-eslint/all',
@@ -13,7 +7,7 @@ module.exports = {
     'plugin:functional/external-recommended',
     'plugin:functional/all',
     'prettier',
-    'prettier/@typescript-eslint'
+    'prettier/@typescript-eslint',
   ],
   rules: {
     'max-lines': ['error', 1000],
@@ -21,6 +15,7 @@ module.exports = {
     complexity: ['error', 5],
     'max-statements': 'off',
     'max-lines-per-function': 'off',
+    'default-case': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off', // deprecated in favor of @typescript-eslint/ban-ts-comment
     '@typescript-eslint/no-type-alias': 'off',
     'tsdoc/syntax': 'warn',
@@ -35,18 +30,18 @@ module.exports = {
         ignoreNumericLiteralTypes: true,
         ignoreEnums: true,
         ignoreArrayIndexes: true,
-        ignore: [-1, 0, 1]
-      }
+        ignore: [-1, 0, 1],
+      },
     ],
     '@typescript-eslint/restrict-template-expressions': [
       'error',
-      { allowNumber: true }
+      { allowNumber: true },
     ],
     'eslint-comments/disable-enable-pair': [
       'error',
       {
-        allowWholeFile: true
-      }
+        allowWholeFile: true,
+      },
     ],
     'eslint-comments/no-aggregating-enable': 'error',
     'eslint-comments/no-duplicate-disable': 'error',
@@ -61,9 +56,9 @@ module.exports = {
           'eslint-disable-line',
           'eslint-disable-next-line',
           'eslint-enable',
-          'global'
-        ]
-      }
+          'global',
+        ],
+      },
     ],
     'import/first': 'error',
     'import/newline-after-import': 'error',
@@ -81,22 +76,22 @@ module.exports = {
       {
         'newlines-between': 'always',
         alphabetize: {
-          order: 'asc'
-        }
-      }
+          order: 'asc',
+        },
+      },
     ],
     'sort-imports': [
       'error',
       {
         ignoreDeclarationSort: true,
-        ignoreCase: true
-      }
+        ignoreCase: true,
+      },
     ],
     'import/prefer-default-export': 'off',
     'functional/functional-parameters': 'off',
     'functional/no-conditional-statement': [
       'error',
-      { allowReturningBranches: true }
+      { allowReturningBranches: true },
     ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -106,6 +101,7 @@ module.exports = {
     '@typescript-eslint/typedef': 'off',
     'no-ternary': 'off',
     'no-nested-ternary': 'off',
-    'no-warning-comments': 'off'
-  }
+    'no-warning-comments': 'off',
+    'no-loss-of-precision': 'off', // TODO: disabled for TS: https://github.com/typescript-eslint/typescript-eslint/issues/2076 - upgrade to https://github.com/typescript-eslint/typescript-eslint/pull/2196 when released
+  },
 };

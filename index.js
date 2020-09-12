@@ -104,6 +104,7 @@ module.exports = {
     'no-ternary': 'off',
     'no-nested-ternary': 'off',
     'no-warning-comments': 'off',
-    'no-loss-of-precision': 'off', // TODO: disabled for TS: https://github.com/typescript-eslint/typescript-eslint/issues/2076 - upgrade to https://github.com/typescript-eslint/typescript-eslint/pull/2196 when released
+    'no-loss-of-precision': 'off',
+    '@typescript-eslint/no-loss-of-precision': ['error'],
   },
 };

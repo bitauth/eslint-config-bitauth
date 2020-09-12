@@ -80,6 +80,8 @@ module.exports = {
         },
       },
     ],
+    'no-duplicate-imports': 'off',
+    'import/no-duplicates': 'error',
     'sort-imports': [
       'error',
       {

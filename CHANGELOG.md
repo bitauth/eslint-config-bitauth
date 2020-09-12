@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](///compare/v2.0.0...v2.1.0) (2020-09-12)
+
+
+### Features
+
+* **no-loss-of-precision:** use new [@typescript-eslint](undefined/typescript-eslint) version f0ffa33
+
+
+### Bug Fixes
+
+* **no-duplicate-imports:** replace with import/no-duplicates 6219b73
+
 ## [2.0.0](///compare/v1.2.0...v2.0.0) (2020-06-18)
 
 

@@ -14,7 +14,7 @@ A very strict eslint configuration, including rules which require:
 First, configure your project for [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint). Then install `eslint-config-bitauth` and the required plugins.
 
 ```
-npm install --dev eslint @typescript-eslint/parser eslint-config-bitauth eslint-plugin-functional eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-tsdoc
+npm install --dev eslint @typescript-eslint/parser eslint-config-bitauth eslint-plugin-functional eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-tsdoc eslint-plugin-prettier
 ```
 
 Then add `bitauth` to the `extends` array in your ESLint configuration.

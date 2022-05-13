@@ -7,7 +7,6 @@ module.exports = {
     'plugin:functional/external-recommended',
     'plugin:functional/all',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   rules: {
     'max-lines': ['error', 1000],
@@ -64,9 +63,11 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'error',
     'import/no-amd': 'error',
+    'import/no-cycle': 'error',
     'import/no-default-export': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-named-default': 'error',
+    'import/no-commonjs': 'error',
     'import/no-named-export': 'off',
     'import/no-self-import': 'error',
     'import/no-useless-path-segments': 'error',
@@ -97,6 +98,10 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/prefer-literal-enum-member': [
+      'error',
+      { allowBitwiseExpressions: true },
+    ],
     'functional/prefer-readonly-type': 'off', // disabled in favor of @typescript-eslint/prefer-readonly-parameter-types
     'functional/prefer-type-literal': 'off',
     'one-var': 'off',
@@ -106,5 +111,9 @@ module.exports = {
     'no-warning-comments': 'off',
     'no-loss-of-precision': 'off',
     '@typescript-eslint/no-loss-of-precision': ['error'],
+    '@typescript-eslint/consistent-indexed-object-style': [
+      'error',
+      'index-signature',
+    ],
   },
 };

@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](///compare/v2.1.0...v3.0.0) (2022-05-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* requires eslint-plugin-prettier, several new rules
+
+* feat(eslint 8): 2a1df82
+
 ## [2.1.0](///compare/v2.0.0...v2.1.0) (2020-09-12)
 
 

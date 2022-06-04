@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](///compare/v3.0.0...v3.1.0) (2022-06-04)
+
+
+### Features
+
+* ignore -1n, 0n, and 1n magic numbers 074b5f1
+
 ## [3.0.0](///compare/v2.1.0...v3.0.0) (2022-05-13)
 
 

@@ -29,7 +29,7 @@ module.exports = {
         ignoreNumericLiteralTypes: true,
         ignoreEnums: true,
         ignoreArrayIndexes: true,
-        ignore: [-1, 0, 1, -1n, 0n, 1n],
+        ignore: [-1, 0, 1, '-1n', '0n', '1n'],
       },
     ],
     '@typescript-eslint/restrict-template-expressions': [

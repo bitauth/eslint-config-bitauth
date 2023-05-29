@@ -4,7 +4,7 @@ module.exports = {
     'eslint:all',
     'plugin:@typescript-eslint/all',
     'plugin:import/typescript',
-    'plugin:functional/external-recommended',
+    'plugin:functional/external-typescript-recommended',
     'plugin:functional/all',
     'prettier',
   ],
@@ -102,8 +102,6 @@ module.exports = {
       'error',
       { allowBitwiseExpressions: true },
     ],
-    'functional/prefer-readonly-type': 'off', // disabled in favor of @typescript-eslint/prefer-readonly-parameter-types
-    'functional/prefer-type-literal': 'off',
     'one-var': 'off',
     '@typescript-eslint/typedef': 'off',
     'no-ternary': 'off',

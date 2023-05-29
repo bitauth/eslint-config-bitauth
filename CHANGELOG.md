@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](///compare/v3.1.2...v4.0.0) (2023-05-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* requires eslint-plugin-functional v5
+
+### Features
+
+* upgrade eslint-plugin-functional to v5 a0382db
+
 ### [3.1.2](///compare/v3.1.1...v3.1.2) (2022-06-15)
 
 

@@ -91,8 +91,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'functional/functional-parameters': 'off',
-    'functional/no-conditional-statement': [
+    'functional/no-conditional-statements': [
       'error',
       { allowReturningBranches: true },
     ],

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bitauth",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "eslint configuration for bitauth projects",
   "main": "index.cjs",
   "license": "MIT",

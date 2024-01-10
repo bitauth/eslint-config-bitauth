@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](///compare/v4.0.1...v5.0.0) (2024-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* major version upgrades to several plugins
+
+### Features
+
+* switch to yarn, upgrade all dependencies c4005ce
+
 ### [4.0.1](///compare/v4.0.0...v4.0.1) (2023-06-17)
 
 

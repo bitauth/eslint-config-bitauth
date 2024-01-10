@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bitauth",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "eslint configuration for bitauth projects",
   "main": "index.cjs",
   "license": "MIT",
@@ -30,5 +30,10 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "files": [
+    "index.cjs",
+    "CHANGELOG.md",
+    "readme.md"
+  ],
   "packageManager": "yarn@4.0.2"
 }
